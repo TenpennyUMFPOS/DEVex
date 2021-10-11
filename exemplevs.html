@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script  src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Title title title</h1>
+
+
+
+
+    <div class="container">
+    <div class="Btndiv">
+        <button onclick="popup_open()" id="addbutton" class="addBtn" > Add a Book?  </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<div class="modal">
+<div class="myform">
+    <div onclick="popup_close()" class="closeBtn">+</div>
+<h1>ADD a new Book</h1> 
+   <form> 
+<input class="forminput" type="text" id="title" placeholder="Title">
+<input class="forminput" type="text" id="author" placeholder="Author">
+<input class="forminput" type="text" id="price" placeholder="Price">
+<input class="forminput" type="button" id="add" value="Add" onclick="addRow()">
+    
+</form> 
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="mydata">
+<table id="myTableData" class="styled-table" border="1" cellpadding="2">
+    
+        <thead>
+            <tr>
+
+        <th><b>Title</b></th>
+        <th><b>Author</b></td>
+        <th colspan="3"><b>Price</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table> 
+</div>
+</body>
+</html>
