@@ -95,3 +95,6 @@ body{
     cursor: pointer;
 }
 
+.focus{
+    pointer-events:none;    
+}
